@@ -1,0 +1,8 @@
+name "Asyncron™"
+slug "asyncron"
+description "a synchronized checklist verification"
+media-type "code"
+category "scripts"
+tags "ping" "http-api" "checklist"
+homepage "https://dym.sh/asyncron"
+license "MIT"

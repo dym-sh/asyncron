@@ -10,14 +10,16 @@
 2. Check periodically
 
 
+## Screenshot
+
+![screenshot](screenshot.png)
+
+
 ## Installation
 
 - put on a local network, or some subdomain prob
-
 - script only needs read+write access to the current directory, to keep track of tasks and pings
-
 - no database needed
-
 - no javascript needed
 
 
@@ -37,12 +39,12 @@
 ```
 
 
-## http API
+### http API
 
 - `GET` – returns `1` if task was pinged and interval has not yet expired, otherwise `0`
-- `POST` – create/reactivate
+- `POST` – create/reactivate task
 - `PUT` – update description and/or interval
 - `PATCH` – ping a completion
-- `DELETE` – deactivate
+- `DELETE` – deactivate task
 
 more details in the source code
